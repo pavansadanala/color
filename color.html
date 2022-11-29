@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COLOR PICKER</title>
+        <script src="color.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+        <div id="rgb" onclick="getYourColor()"><h2>#000000</h2></div>
+        <div class="ddg" id="divRed" style="color:red" onclick="input(x,r)">RED</div>
+        <input type="range" class="space" id="red" min="0" max="255" step="1" value="0" onchange="getColor()"></input>
+        <div class="ddg" id="divGreen" style="color:green" onclick="input(y,g)">GREEN</div>
+         <input type="range" class="space" id="green" min="0" max="255" step="1" value="0" onchange="getColor()"></input>
+         <div class="ddg" id="divBlue" style="color:blue" onclick="input(z,b)"> BLUE</div>
+         <input type="range" class="space" id="blue" min="0" max="255" step="1" value="0" onchange="getColor()"></input>
+        </body>
+    </html>
